@@ -21,7 +21,7 @@ tline = fgetl(f_in);
 
 splitOK =   size(strfind(tline,splitChar),2);
 
-l = 0; rm = 1;
+l = 0; rm = 0;
 while ischar(tline)
     l = l + 1;
     splitN = size(strfind(tline,splitChar),2);
